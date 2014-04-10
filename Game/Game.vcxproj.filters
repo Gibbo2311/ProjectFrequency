@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="GameWorld.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldFactory.cpp">
+      <Filter>WorldFactory</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="World">
+      <UniqueIdentifier>{419140c0-092e-4a8f-a5b5-1a0891a63b30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WorldFactory">
+      <UniqueIdentifier>{81fb8bf4-e9e6-4962-bfc6-927ebb3d2973}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameWorld.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldFactory.h">
+      <Filter>WorldFactory</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{063e4568-3d34-44b0-b30c-44156beacdbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ogre">
+      <UniqueIdentifier>{46a257cc-d200-4f1d-80f5-f710c8547f25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ogre\OgreWindowManager">
+      <UniqueIdentifier>{c060df17-0110-4540-aed6-3d09cbc0b5c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ogre\OgreViewport">
+      <UniqueIdentifier>{23558471-534c-4c21-8cf2-ea69cb74afe4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ogre\OgreScene">
+      <UniqueIdentifier>{65fc55df-fcba-48d8-b74a-08b9f52a714c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ogre\GameComponents">
+      <UniqueIdentifier>{7536636d-e8ae-46c3-8757-9914ddcd756d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\GameObjectComponent">
+      <UniqueIdentifier>{f71214e7-16dc-47ae-8e01-4e9f24b71dce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ogre\GameComponents\OgreCamera">
+      <UniqueIdentifier>{22981a4e-14eb-4216-bfec-28e233c50448}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ogre\OgreResourceManager">
+      <UniqueIdentifier>{fa288b0d-f5b0-4d6c-8e6d-5ab651784a47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ogre\GameComponents\OgreSceneNodeComponent">
+      <UniqueIdentifier>{953863f9-c9d3-4346-aae2-06bdcc561d04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ogre\GameComponents\OgreMeshComponent">
+      <UniqueIdentifier>{22f4b0c9-f730-44f4-95aa-805670703368}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Graphics.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\IWindowManager.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="OgreWindowManager.h">
+      <Filter>Ogre\OgreWindowManager</Filter>
+    </ClInclude>
+    <ClInclude Include="OgreSingleton.h">
+      <Filter>Ogre</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Include\IViewport.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="OgreViewport.h">
+      <Filter>Ogre\OgreViewport</Filter>
+    </ClInclude>
+    <ClInclude Include="OgreCameraComponent.h">
+      <Filter>Ogre\GameComponents\OgreCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="OgreScene.h">
+      <Filter>Ogre\OgreScene</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IScene.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SceneNodeComponent.h">
+      <Filter>Include\GameObjectComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="OgreResourceManager.h">
+      <Filter>Ogre\OgreResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MeshComponent.h">
+      <Filter>Include\GameObjectComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="OgreSceneNodeComponent.h">
+      <Filter>Ogre\GameComponents\OgreSceneNodeComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="OgreMeshComponent.h">
+      <Filter>Ogre\GameComponents\OgreMeshComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CameraComponent.h">
+      <Filter>Include\GameObjectComponent</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OgreWindowManager.cpp">
+      <Filter>Ogre\OgreWindowManager</Filter>
+    </ClCompile>
+    <ClCompile Include="OgreViewport.cpp">
+      <Filter>Ogre\OgreViewport</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp" />
+    <ClCompile Include="OgreCameraComponent.cpp">
+      <Filter>Ogre\GameComponents\OgreCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="OgreScene.cpp">
+      <Filter>Ogre\OgreScene</Filter>
+    </ClCompile>
+    <ClCompile Include="OgreResourceManager.cpp">
+      <Filter>Ogre\OgreResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="OgreSceneNodeComponent.cpp">
+      <Filter>Ogre\GameComponents\OgreSceneNodeComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="OgreMeshComponent.cpp">
+      <Filter>Ogre\GameComponents\OgreMeshComponent</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
